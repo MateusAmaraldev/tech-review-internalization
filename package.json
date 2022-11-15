@@ -1,13 +1,13 @@
 {
    
   "name": "tech-review-internationalization",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
-  "homepage": "https://MateusAmaraldev.github.io/tech-review-internalization",
+  "homepage": ".",
   "type": "module",
   "scripts": {
      "predeploy": "npm run build",
-     "deploy": "gh-pages -d build",
+     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
