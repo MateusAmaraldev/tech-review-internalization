@@ -1,28 +1,70 @@
 {
    
   "name": "tech-review-internationalization",
+   
   "private": false,
+   
   "version": "0.0.0",
+   
   "homepage": ".",
+   
   "type": "module",
+   
   "scripts": {
-     "predeploy": "npm run build",
-     "deploy": "gh-pages -d dist",
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+   
+     
+  "predeploy": "npm run build",
+   
+     
+  "deploy": "gh-pages -d dist",
+   
+     
+  "dev": "vite",
+   
+     
+  "build": "tsc && vite build",
+   
+     
+  "preview": "vite preview",
+  "cypress:open":"npx cypress open"
+   
   },
+   
   "dependencies": {
-    "i18next": "^22.0.5",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-i18next": "^12.0.0"
+   
+     
+  "i18next": "^22.0.5",
+   
+     
+  "react": "^18.2.0",
+   
+     
+  "react-dom": "^18.2.0",
+   
+     
+  "react-i18next": "^12.0.0"
+   
   },
+   
   "devDependencies": {
-    "@types/react": "^18.0.24",
-    "@types/react-dom": "^18.0.8",
-    "@vitejs/plugin-react": "^2.2.0",
-    "typescript": "^4.6.4",
-    "vite": "^3.2.3"
+   
+     
+  "@types/react": "^18.0.24",
+   
+     
+  "@types/react-dom": "^18.0.8",
+   
+     
+  "@vitejs/plugin-react": "^2.2.0",
+   
+     
+  "cypress": "^11.2.0",
+   
+     
+  "typescript": "^4.6.4",
+   
+     
+  "vite": "^3.2.3"
+   
   }
 }

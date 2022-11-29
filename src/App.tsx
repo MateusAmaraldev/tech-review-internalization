@@ -1,4 +1,3 @@
-import { useState } from "react";
 import i18n from "i18next";
 import { initReactI18next, Trans, useTranslation } from "react-i18next";
 import "./App.css";
@@ -19,10 +18,10 @@ function App() {
   return (
     <div className="App">
       <div>
-        <button onClick={() => changeLanguage("pt")}>
+        <button name="change-to-pt" onClick={() => changeLanguage("pt")}>
           <img src="https://cdn-icons-png.flaticon.com/128/7826/7826359.png" />
         </button>
-        <button onClick={() => changeLanguage("en")}>
+        <button name="change-to-en" onClick={() => changeLanguage("en")}>
           <img src="https://cdn-icons-png.flaticon.com/128/3909/3909383.png" />
         </button>
       </div>
